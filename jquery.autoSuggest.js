@@ -84,7 +84,7 @@
 				var results_holder = $('<div class="as-results" id="as-results-'+x+'"></div>').hide();
 				var results_ul =  $('<ul class="as-list"></ul>');
 				if ( opts.asHiddenInputID != false ) { var asHiddenInputID = opts.asHiddenInputID; } else { var asHiddenInputID = 'as-values-'+x;}
-				if ( opts.asHiddenInputName != false ) { var asHiddenInputName = opts.HiddenInputName; } else { var asHiddenInputName = 'as_values_'+x;}
+				if ( opts.asHiddenInputName != false ) { var asHiddenInputName = opts.asHiddenInputName; } else { var asHiddenInputName = 'as_values_'+x;}
 				var values_input = $('<input type="hidden" class="as-values" name="'+asHiddenInputName+'" id="'+asHiddenInputID+'" />');
 				var prefill_value = "";
 				if(typeof opts.preFill == "string"){
